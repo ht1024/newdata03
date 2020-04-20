@@ -107,7 +107,9 @@ class Components extends React.Component {
               </ul> 
               <br/>
               <h3>Runtime Environment</h3>
-              <p>NodeJs </p> 
+              <ul>
+                <li>NodeJS</li>
+              </ul> 
               <br/>
 
               
