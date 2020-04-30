@@ -107,6 +107,7 @@ class Components extends React.Component {
               </ul> 
               <br/>
               <h3>Runtime Environment</h3>
+              <p>Experienced in refactoring and stylizing NodeJS Applications. Creating and customizing stylized components.</p>
               <ul>
                 <li>NodeJS</li>
               </ul> 
