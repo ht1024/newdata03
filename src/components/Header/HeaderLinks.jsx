@@ -39,16 +39,17 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
+      
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Pages"
+          buttonText="More"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
           buttonIcon={Apps}
-          dropdownList={[
+          dropdownList={[/*
             <Link to="/" className={classes.dropdownLink}>
               Home
             </Link>,
@@ -58,29 +59,17 @@ function HeaderLinks({ ...props }) {
             <Link to="landing-page" className={classes.dropdownLink}>
               Landing Page
             </Link>
+            */
           ]}
         />
       </ListItem>
+      
+      
+      
       <ListItem className={classes.listItem}>
         <Tooltip
           id="linkedIn-tooltip"
-          title="Find me on GitHub 1:  For IBMers"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://github.ibm.com/htrista"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-github"} />
-          </Button>
-        </Tooltip>
-      </ListItem><ListItem className={classes.listItem}>
-        <Tooltip
-          id="linkedIn-tooltip"
-          title="Find me on GitHub 2: Personal"
+          title="Find me on GitHub"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
