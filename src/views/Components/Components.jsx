@@ -87,7 +87,7 @@ class Components extends React.Component {
                 <ul>
                 <li>CSS</li>
                 <li>HTML</li>
-              <li>NodeJS</li>
+                <li>NodeJS</li>
               </ul> 
               
               <br/>
@@ -112,7 +112,14 @@ class Components extends React.Component {
                 <li>NodeJS</li>
               </ul> 
               <br/>
-
+              <h3>UX/UI Skills &amp; Tools</h3>
+              <p>App &amp; Website Design &amp; Experience</p>
+              <ul>
+                <li>Adobe Creative Suite</li>
+                <li>Sketch</li>
+                <li>Online Graphics/Video Editors</li>
+              </ul> 
+              <br/>
               
               </GridItem>
               
