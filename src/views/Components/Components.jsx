@@ -120,7 +120,6 @@ class Components extends React.Component {
                 <li>Online Graphics/Video Editors</li>
               </ul> 
               <br/>
-              git clone git@github.com:ht1024/newdata03.git
               
               
               </GridItem>
