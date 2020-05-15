@@ -1,1 +1,1 @@
-I've used a template for this which uses REACT.
+NodeJs & REACT. I use Yarn.. so do "yarn start" at SRC folder. May require "Sudo" on your system.
