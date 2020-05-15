@@ -1,1 +1,1 @@
-NodeJs & REACT. I use Yarn.. so do "yarn start" at SRC folder. May require "Sudo" on your system.
+NodeJs & REACT. I use Yarn but "NPM Start" will also work  at SRC folder. May require "Sudo" on your system.
