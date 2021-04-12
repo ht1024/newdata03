@@ -59,7 +59,7 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/nd-bg09.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
@@ -69,17 +69,6 @@ class LandingPage extends React.Component {
                   promoting products. Here is an effort of mine for voice over
                   talent for one of our products that I worked on in many ways.
                 </h4>
-                <br />
-                <iframe
-                  title="My Voice Over"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/lZxhk0KdgYk"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-                <br />
               </GridItem>
             </GridContainer>
           </div>

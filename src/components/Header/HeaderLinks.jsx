@@ -39,17 +39,16 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
-      
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           buttonText="More"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: "transparent",
           }}
           buttonIcon={Apps}
-          dropdownList={[/*
+          dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
               Home
             </Link>,
@@ -58,14 +57,11 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="landing-page" className={classes.dropdownLink}>
               Landing Page
-            </Link>
-            */
+            </Link>,
           ]}
         />
       </ListItem>
-      
-      
-      
+
       <ListItem className={classes.listItem}>
         <Tooltip
           id="linkedIn-tooltip"
@@ -96,7 +92,7 @@ function HeaderLinks({ ...props }) {
             target="_blank"
             className={classes.navLink}
           >
-          <i className={classes.socialIcons + " fab fa-linkedin"} />
+            <i className={classes.socialIcons + " fab fa-linkedin"} />
           </Button>
         </Tooltip>
       </ListItem>
