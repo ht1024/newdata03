@@ -89,15 +89,9 @@ class ProfilePage extends React.Component {
                 <p>
                   Devoted to working and fullfilling each projects mission by
                   creating friendly, accessible guided paths for project success
-                  and user satisfaction.{" "}
+                  and user satisfaction.
                 </p>
 
-                <p>
-                  The links below moslty go to an IBM enterprise github
-                  repository. I am cleaning up the data to protect IBM&apos;s
-                  interest. I can show parts of it during live video conference
-                  only.
-                </p>
               </div>
               <div>
                 <h3>Domino Applications on Cloud</h3>
