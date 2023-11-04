@@ -55,24 +55,25 @@ class LandingPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 400,
-            color: "white"
+            color: "white",
           }}
           {...rest}
         />
+
         <Parallax filter image={require("assets/img/nd-bg09.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>NEW DATA</h1>
+                <h1 className={classes.title}>Agile Software Development </h1>
                 <h4>
-                  I am a front end developer with a lot of experience in
-                  promoting products. Here is an effort of mine for voice over
-                  talent for one of our products that I worked on in many ways.
+                  I have 5+ years of working in Agile Development environments
+                  with regular standup meetings.
                 </h4>
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
+
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
@@ -85,7 +86,7 @@ class LandingPage extends React.Component {
 }
 
 LandingPage.propTypes = {
-  classes: PropTypes.object
+  classes: PropTypes.object,
 };
 
 export default withStyles(landingPageStyle)(LandingPage);

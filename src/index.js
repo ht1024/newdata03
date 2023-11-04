@@ -16,7 +16,6 @@
 
 */
 
-
 import React from "react";
 /* import Component from "react"; (evidently not used ) */
 import ReactDOM from "react-dom";
@@ -25,11 +24,13 @@ import { Router, Route, Switch } from "react-router-dom";
 
 import "assets/scss/material-kit-react.scss?v=1.7.0";
 
-// pages for this product
+// load Components before pages
 import Components from "views/Components/Components.jsx";
+// pages for this product
 import LandingPage from "views/LandingPage/LandingPage.jsx";
 import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
+import LinksPage from "./views/LinksPage/LinksPage";
 
 var hist = createBrowserHistory();
 
@@ -39,6 +40,7 @@ ReactDOM.render(
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
+      <Route path="/links-page" component={LinksPage} />
       <Route path="/" component={Components} />
     </Switch>
   </Router>,

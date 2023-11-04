@@ -31,7 +31,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import profile from "assets/img/faces/ht.jpg";
-import profilePageStyle from "assets/jss/material-kit-react/views/linksPage.jsx";
+import linksPageStyle from "assets/jss/material-kit-react/views/linksPage.jsx";
 
 class LinksPage extends React.Component {
   render() {
@@ -50,7 +50,7 @@ class LinksPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: "white",
           }}
           {...rest}
         />
@@ -85,14 +85,15 @@ class LinksPage extends React.Component {
                 </GridItem>
               </GridContainer>
               <br></br>
-              <div className={classes.description}>
+              <div className={classes.profile}>
                 <p>
-                  some great links
+                  Devoted to working and fullfilling each projects mission by
+                  creating friendly, accessible guided paths for project success
+                  and user satisfaction.
                 </p>
-
               </div>
               <div>
-                <h3>Test for Viruses </h3>
+                <h3>Domino Applications on Cloud</h3>
                 <p>
                   My latest project as software Designer was to create a UI/UX
                   for my departments first cloud offering. I was able to work
@@ -141,7 +142,7 @@ class LinksPage extends React.Component {
 }
 
 LinksPage.propTypes = {
-  classes: PropTypes.object
+  classes: PropTypes.object,
 };
 
-export default withStyles(profilePageStyle)(LinksPage);
+export default withStyles(linksPageStyle)(LinksPage);
