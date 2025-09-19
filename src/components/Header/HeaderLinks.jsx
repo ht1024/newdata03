@@ -39,6 +39,7 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
+      {/*  REMOVED DROP DOWN LINKS 
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
@@ -64,6 +65,7 @@ function HeaderLinks({ ...props }) {
           ]}
         />
       </ListItem>
+      */}
 
       <ListItem className={classes.listItem}>
         <Tooltip

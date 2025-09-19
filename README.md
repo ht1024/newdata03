@@ -2,6 +2,9 @@ NodeJs & REACT. I use Yarn but "NPM Start" will also work at SRC folder.
 May require "Sudo" on your system.
 Modified from a template.
 
+08/18/2025
+Update to home page content
+
 1/6/2023
 Had an open SSL error
 Found this fix on this website:

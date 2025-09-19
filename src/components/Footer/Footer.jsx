@@ -32,11 +32,11 @@ function Footer({ ...props }) {
   const { classes, whiteFont } = props;
   const footerClasses = classNames({
     [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
+    [classes.footerWhiteFont]: whiteFont,
   });
   const aClasses = classNames({
     [classes.a]: true,
-    [classes.footerWhiteFont]: whiteFont
+    [classes.footerWhiteFont]: whiteFont,
   });
   return (
     <footer className={footerClasses}>
@@ -52,20 +52,9 @@ function Footer({ ...props }) {
                 On LinkedIn
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://github.ibm.com/htrista"
-                className={classes.block}
-                target="_blank"
-              >
-                On github for IBMers
-              </a>
-            </ListItem>
           </List>
         </div>
-        <div className={classes.right}>
-          Thank you for visiting.
-        </div> 
+        <div className={classes.right}>Thank you for visiting.</div>
       </div>
     </footer>
   );
@@ -73,7 +62,7 @@ function Footer({ ...props }) {
 
 Footer.propTypes = {
   classes: PropTypes.object.isRequired,
-  whiteFont: PropTypes.bool
+  whiteFont: PropTypes.bool,
 };
 
 export default withStyles(footerStyle)(Footer);

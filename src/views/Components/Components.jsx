@@ -92,6 +92,8 @@ class Components extends React.Component {
                     Previous responsibilities include communicating progress and
                     status updates to stakeholders.
                   </p>
+
+                  <br />
                   <h2>🌐 Project Highlight</h2>
                   <p>
                     This website was built using{" "}
@@ -101,9 +103,7 @@ class Components extends React.Component {
                     featuring asynchronous programming, modular architecture,
                     and React libraries for dynamic component rendering.{" "}
                   </p>
-                </GridItem>
 
-                <GridItem>
                   <br />
                   <h2>🚀 Technical Interests</h2>
                   <p>
@@ -124,11 +124,9 @@ class Components extends React.Component {
                       that drives functionality across modern web applications
                     </li>
                   </ul>
-                </GridItem>
 
-                <GridItem>
                   <br />
-                  <h3>🧰 Frameworks & Tools</h3>
+                  <h2>🧰 Frameworks & Tools</h2>
                   <ul>
                     <li>Bootstrap</li>
                     <li>jQuery</li>
@@ -137,11 +135,9 @@ class Components extends React.Component {
                       building user interfaces
                     </li>
                   </ul>
-                </GridItem>
 
-                <GridItem>
                   <br />
-                  <h3>⚙️ Runtime Environment</h3>
+                  <h2>⚙️ Runtime Environment</h2>
                   <p>
                     Experienced in refactoring and styling{" "}
                     <a href="https://nodejs.org/en/about/" target="blank">
@@ -152,7 +148,7 @@ class Components extends React.Component {
                   </p>
 
                   <br />
-                  <h3>🎨 UX/UI Skills & Tools</h3>
+                  <h2>🎨 UX/UI Skills & Tools</h2>
                   <ul>
                     <li>App & Website Design</li>
                     <li>Adobe Creative Suite</li>
