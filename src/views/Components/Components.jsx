@@ -14,6 +14,8 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
+Removed <GridItem xs={12}> What is xs=12 mean?</GridItem> from line 140 on 08182025
+
 */
 import React from "react";
 // nodejs library to set properties for components
@@ -73,85 +75,90 @@ class Components extends React.Component {
             <div className={classes.container}>
               <GridContainer>
                 <GridItem>
-                  <h2>Front-End Web Development</h2>
+                  <br />
+                  <h2>💻 Web Developer Profile</h2>
                   <p>
-                    Web Developer committed to the user journey, user flow,
-                    design &amp; development of user portals and integrations.
-                    Willing to lead by example and participate in all coding and
-                    debugging. Continually considering strengths and improving
-                    limitations of product. Experienced with road
-                    mapping/project planning efforts and having ownership for
-                    delivery. I am actively engaged in project management
-                    efforts as the team executes plans. Previous
-                    responsibilities include communicating progress and status
-                    to stakeholders.
+                    Web Developer committed to optimizing the user journey, user
+                    flow, and the design and development of user portals and
+                    integrations. Willing to lead by example and actively
+                    contribute to coding and debugging efforts. Continuously
+                    evaluating product strengths and addressing limitations to
+                    drive improvement.
                   </p>
                   <p>
-                    This website was built with{" "}
+                    Experienced in road mapping and project planning, with a
+                    strong sense of ownership over delivery. Actively engaged in
+                    project management as the team executes strategic plans.
+                    Previous responsibilities include communicating progress and
+                    status updates to stakeholders.
+                  </p>
+                  <h2>🌐 Project Highlight</h2>
+                  <p>
+                    This website was built using{" "}
                     <a href="https://nodejs.org/en/about/" target="blank">
                       NodeJS
                     </a>{" "}
-                    featuring asynchronous programming, multiple components and
-                    utilizing React Libraries.{" "}
+                    featuring asynchronous programming, modular architecture,
+                    and React libraries for dynamic component rendering.{" "}
                   </p>
                 </GridItem>
 
-                <GridItem xs={12}>
-                  <h2>Preferences</h2>
+                <GridItem>
+                  <br />
+                  <h2>🚀 Technical Interests</h2>
                   <p>
-                    My interest in web applications and technology are primally
-                    concentrated on the 3 main mark-up, style and programming
-                    languages&#58;
+                    My interest in web applications and technology is primarily
+                    focused on the three core languages of the web:
                   </p>
                   <ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>NodeJS</li>
+                    <li>
+                      HTML – The standard markup language for structuring
+                      content in the browser
+                    </li>
+                    <li>
+                      CSS – The style sheet language that defines how HTML
+                      elements are visually presented
+                    </li>
+                    <li>
+                      JavaScript – A powerful and versatile programming language
+                      that drives functionality across modern web applications
+                    </li>
                   </ul>
+                </GridItem>
 
+                <GridItem>
                   <br />
-                  <h3>
-                    Hyper Text Markup Language (HTML) &amp; Cascading Style
-                    Sheets (CSS)
-                  </h3>
-                  <p>
-                    My strengths&#58; HTML, being the standard markup language
-                    for displaying documents in a browser along with CSS the
-                    Style Sheet Language for that describes how HTML elements
-                    should be displayed.
-                  </p>
-                  <br />
-                  <h3>JavaScript (JS)</h3>
-                  <p>
-                    The power behind so many web applications a great versatile
-                    language.
-                  </p>
-                  <br />
-                  <h3>Web Development Frameworks &amp; Tools</h3>
+                  <h3>🧰 Frameworks & Tools</h3>
                   <ul>
                     <li>Bootstrap</li>
                     <li>jQuery</li>
                     <li>
-                      React (Currently most popular Framework or Library)
-                      JavaScript Library
+                      React – Currently the most popular JavaScript library for
+                      building user interfaces
                     </li>
                   </ul>
+                </GridItem>
+
+                <GridItem>
                   <br />
-                  <h3>Runtime Environment</h3>
+                  <h3>⚙️ Runtime Environment</h3>
                   <p>
-                    Experienced in refactoring and stylizing NodeJS
-                    Applications. Creating and customizing stylized components.
+                    Experienced in refactoring and styling{" "}
+                    <a href="https://nodejs.org/en/about/" target="blank">
+                      NodeJS
+                    </a>{" "}
+                    applications, including the creation and customization of
+                    reusable components.
                   </p>
-                  <ul>
-                    <li>NodeJS</li>
-                  </ul>
+
                   <br />
-                  <h3>UX/UI Skills &amp; Tools</h3>
-                  <p>App &amp; Website Design </p>
+                  <h3>🎨 UX/UI Skills & Tools</h3>
                   <ul>
+                    <li>App & Website Design</li>
                     <li>Adobe Creative Suite</li>
+                    <li>Figmah</li>
+                    <li>Online Graphics and Video Editors</li>
                     <li>Sketch</li>
-                    <li>Online Graphics/Video Editors</li>
                   </ul>
                   <br />
                 </GridItem>
