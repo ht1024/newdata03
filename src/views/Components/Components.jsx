@@ -72,11 +72,10 @@ class Components extends React.Component {
 
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <div className={classes.container}>
               <GridContainer>
-                <GridItem>
+                 <GridItem  >
                   <br />
-                  <h2>{"\u{1F4BB}"} Web Developer Profile</h2>
+                  <h2 ><span role="img" aria-label="computer">{"\u{1F4BB}"}</span> Web Developer Profile</h2>
                   <p>
                     Web Developer committed to optimizing the user journey, user
                     flow, and the design and development of user portals and
@@ -94,7 +93,8 @@ class Components extends React.Component {
                   </p>
 
                   <br />
-                  <h2>{"\u{1F310}"} Project Highlight</h2>
+                  
+                  <h2><span role="img" aria-label="wireframe globe">{"\u{1F310}"}</span> Project Highlight</h2>
                   <p>
                     This website was built using{" "}
                     <a href="https://nodejs.org/en/about/" target="blank">
@@ -105,7 +105,7 @@ class Components extends React.Component {
                   </p>
 
                   <br />
-                  <h2>{"\u{1F680}"} Technical Interests</h2>
+                  <h2><span role="img" aria-label="rocket">{"\u{1F680}"}</span> Technical Interests</h2>
                   <p>
                     My interest in web applications and technology is primarily
                     focused on the three core languages of the web:
@@ -126,7 +126,7 @@ class Components extends React.Component {
                   </ul>
 
                   <br />
-                  <h2>{"\u{1F9F0}"} Frameworks & Tools</h2>
+                  <h2><span role="img" aria-label="toolbox">{"\u{1F9F0}"}</span> Frameworks & Tools</h2>
                   <ul>
                     <li>Bootstrap</li>
                     <li>jQuery</li>
@@ -137,7 +137,7 @@ class Components extends React.Component {
                   </ul>
 
                   <br />
-                  <h2>{"\u{2699}"} Runtime Environment</h2>
+                  <h2><span role="img" aria-label="volk">{"\u{2699}"}</span> Runtime Environment</h2>
                   <p>
                     Experienced in refactoring and styling{" "}
                     <a href="https://nodejs.org/en/about/" target="blank">
@@ -148,7 +148,7 @@ class Components extends React.Component {
                   </p>
 
                   <br />
-                  <h2>{"\u{1F3A8}"} UX/UI Skills & Tools</h2>
+                  <h2><span role="img" aria-label="palette">{"\u{1F3A8}"}</span> UX/UI Skills & Tools</h2>
                   <ul>
                     <li>App & Website Design</li>
                     <li>Adobe Creative Suite</li>
@@ -159,7 +159,6 @@ class Components extends React.Component {
                   <br />
                 </GridItem>
               </GridContainer>
-            </div>
           </div>
         </div>
 
